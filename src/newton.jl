@@ -6,7 +6,7 @@ function optimize_newton(x, f, g, h;
 	                     grtol=1e-4,
 	                     gatol=1e-4,
 	                     prints=false)
-    while true # aqui se pone "true" para no poner una condic extra, y siempre entre al "while"
+    while false # aqui se pone "true" para no poner una condic extra, y siempre entre al "while"
     	fx = f(x)
     	gx = g(x)
     	hx = h(x)
